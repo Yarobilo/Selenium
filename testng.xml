@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name = "browser" value="Chrome"></parameter>
+  <classes>
+       <class name="main.SocialLinks"/> 
+        <class name="main.LockingNFT"/> 
+        <class name="main.HeaderMenu"/> 
+         <class name="main.FacebookLogin"/> 
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->
